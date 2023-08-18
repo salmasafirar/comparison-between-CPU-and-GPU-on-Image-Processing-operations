@@ -1,2 +1,6 @@
-# comparison-between-CPU-and-GPU-on-Image-Processing-operations
-Performance Comparison Analysis of CPU and GPU in Negative Filter, Thresholding, and Brightening Filter Operations.
+# Performance Comparison Analysis of CPU and GPU in Negative Filter, Thresholding, and Brightening Filter Operations.
+In the modern era, with increasingly advanced technology triggering the continuous development of various computational paradigms, image processing techniques have become indispensable for society's manipulation of images to meet informational requirements. The Graphics Processing Unit (GPU) has emerged as a prominent parallel computing alternative that offers enhanced computer performance compared to the Central Processing Unit (CPU) through the utilization of a graphics card.
+
+The study analyzed GPU parallel computing techniques using the Compute Unified Device Architecture (CUDA) and compared performance results with CPU sequential computing employing OpenCV. Experiments were conducted, implementing image processing techniques for negative operations, thresholding, brightening, and pixelization.
+
+The study demonstrated that image processing for negative operations exhibited an average runtime difference of 46 seconds between parallel and sequential computing. For thresholding operations, this difference amounted to 3.2 seconds, while for brightening operations, it was approximately 38.5 seconds. Pixelization operations took 0.507 seconds.
